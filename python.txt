@@ -1,0 +1,6 @@
+- Create a Hash Code in Python:
+
+import hashlib
+hashlib.sha256('hi'.encode()).hexdigest()
+
+-----------------------------------------------------------
