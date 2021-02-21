@@ -4,3 +4,8 @@ import hashlib
 hashlib.sha256('hi'.encode()).hexdigest()
 
 -----------------------------------------------------------
+- Create a Hash Code in macOs command line:
+
+md5 -s Amir
+shasum -t Amir
+shasum -a 256 -t Amir
